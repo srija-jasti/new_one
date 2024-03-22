@@ -19,6 +19,7 @@ By user_login = By.id("login");
 
 public void u_name(String uName) {
 	driver.findElement(user_name).sendKeys(uName);	
+	System.out.println("new code");
 }
 
 public void password(String pwd) {
